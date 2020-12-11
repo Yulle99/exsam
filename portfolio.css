@@ -9,7 +9,7 @@
 
 
 body{
-        background: url("/images/color-2326315.jpg") center no-repeat;
+        background: url("color-2326315.jpg") center no-repeat;
         text-align: center;
   }
 
@@ -129,7 +129,14 @@ h2{
   /* Hide the images by default */
   .mySlides {
     display: none;
+    background-color: rgb(15, 3, 3);
   }
+
+  .mySlides img{
+    width: 50%;
+    height: 500px;
+  }
+  
   
   /* Add a pointer when hovering over the thumbnail images */
   .cursor {
@@ -141,7 +148,7 @@ h2{
   .next {
     cursor: pointer;
     position: absolute;
-    top: 81%;
+    top: 71% ;
     width: auto;
     padding: 16px;
     margin-top: -50px;
@@ -257,7 +264,7 @@ h2{
       /* Next & previous buttons */
       .prev,
       .next {
-        top: 82.5%;
+        top: 55.5%;
         margin-top: -50px;
         font-size: 29.5px;
       }
@@ -265,4 +272,10 @@ h2{
       img{
           width: 90%;
       }
+
+      .mySlides img{
+        width: 50%;
+        height: 250px;
+      }
+      
 }

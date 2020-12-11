@@ -34,32 +34,32 @@
         <!-- Full-width images with number text -->
         <div class="mySlides">
             <div class="numbertext">1 / 6</div>
-            <img src="/images/spacious.PNG" style="width:100%">
+            <img src="wolf.jpg" style="width:50%" height="250px">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">2 / 6</div>
-            <img src="/images/spacious.PNG" style="width:100%">
+            <img src="dragon.jpg" style="width:50%" height="250px">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">3 / 6</div>
-            <img src="/images/spacious.PNG" style="width:100%">
+            <img src="dino.jpg" style="width:50%" height="250px">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">4 / 6</div>
-            <img src="/images/spacious.PNG" style="width:100%">
+            <img src="baku.jpg" style="width:50%" height="250px">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">5 / 6</div>
-            <img src="/images/spacious.PNG" style="width:100%">
+            <img src="naruto.png" style="width:50%" height="250px">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">6 / 6</div>
-            <img src="/images/spacious.PNG" style="width:100%">
+            <img src="bleach.png" style="width:40%" height="250px">
         </div>
 
         <!-- Next and previous buttons -->
@@ -74,22 +74,22 @@
         <!-- Thumbnail images -->
         <div class="row">
             <div class="column">
-            <img class="demo cursor" src="/images/spacious.PNG" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+            <img class="demo cursor" src="wolf.jpg" style="width:100%" height="200px" onclick="currentSlide(1)" alt="wolf">
             </div>
             <div class="column">
-            <img class="demo cursor" src="/images/spacious.PNG" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+            <img class="demo cursor" src="dragon.jpg" style="width:100%" height="200px" onclick="currentSlide(2)" alt="dragon">
             </div>
             <div class="column">
-            <img class="demo cursor" src="/images/spacious.PNG" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            <img class="demo cursor" src="dino.jpg" style="width:100%" height="200px" onclick="currentSlide(3)" alt="dino">
             </div>
             <div class="column">
-            <img class="demo cursor" src="/images/spacious.PNG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+            <img class="demo cursor" src="baku.jpg" style="width:100%" height="200px" onclick="currentSlide(4)" alt="baku">
             </div>
             <div class="column">
-            <img class="demo cursor" src="/images/spacious.PNG" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+            <img class="demo cursor" src="naruto.png" style="width:100%" height="200px" onclick="currentSlide(5)" alt="maruto">
             </div>
             <div class="column">
-            <img class="demo cursor" src="/images/spacious.PNG" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+            <img class="demo cursor" src="bleach.png" style="width:100%" height="200px" onclick="currentSlide(6)" alt="bleah">
             </div>
         </div>
     </section>
@@ -99,39 +99,5 @@
       </section>
       
 
-
-  <script>
-    var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-  </script>
-    
 </body>
 </html>
