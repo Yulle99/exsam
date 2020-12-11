@@ -74,6 +74,12 @@ body{
     border-radius: 10px;
 }
 
+h1{
+margin-top: 32px;
+margin-bottom: 32px;
+text-align: center;
+color: white;
+}
 
 .tema{
     display: flex;
@@ -83,9 +89,15 @@ body{
 
 .tema div{
     width: 435px;
-    height: 600px;
+    height: 450px;
     margin: 30px;
-    background-color: black;
+    background-color: #f2f2f2;
+}
+
+.tema div:hover{
+    transform: translateY(-.5%);
+    transition: 0.2s;
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.41); 
 }
 
 .spacious{
