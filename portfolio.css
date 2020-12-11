@@ -22,7 +22,7 @@ body{
     color: white;
 }
 
-.brand-title {
+.logo {
     font-size: 1.5rem;
     margin: .5rem;
 }
@@ -204,6 +204,11 @@ h2{
     opacity: 1;
   }
 
+  .video {
+    display: block;
+    margin: 0 auto;
+}
+
 @media (max-width: 1000px) {
     .tema div{
         width: 148px;
@@ -256,5 +261,8 @@ h2{
         margin-top: -50px;
         font-size: 29.5px;
       }
-      
+
+      img{
+          width: 90%;
+      }
 }
