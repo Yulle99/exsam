@@ -6,11 +6,7 @@
     box-sizing: border-box;   
 }
 
-:root {
-    --moonlitasteroid:#2C5364;
-    --white:#fafafa;
-    --black:#030303;
-    }
+
 
 body{
         background: url("/images/color-2326315.jpg") center no-repeat;
@@ -91,7 +87,15 @@ color: white;
     width: 435px;
     height: 450px;
     margin: 30px;
-    background-color: #f2f2f2;
+    background-color: #333333c2;
+}
+
+.Rum img {
+    margin-top: 15%;
+}
+
+.video img{
+    margin-top: 15%;
 }
 
 .tema div:hover{
@@ -108,7 +112,12 @@ color: white;
 section p{
     color: cornsilk;
     font-size: 18px;
-    margin-top: 10%;
+    margin: 5%;
+}
+
+h2{
+    color: white;
+    margin: 5%;
 }
  
 .container {
@@ -198,7 +207,7 @@ section p{
 @media (max-width: 1000px) {
     .tema div{
         width: 148px;
-        height: 240px;
+        height: 180px;
         margin-left: 0;
         margin-right: 0;
     }
@@ -236,8 +245,8 @@ section p{
     }
 
     .container {
-        width: 100%;
-        margin-left:0;
+        width: 90%;
+        margin-left:5%;
       }
       
       /* Next & previous buttons */
